@@ -101,4 +101,8 @@
   .nav .navLinks {
     display: none;
   }
+  .navCanvas {
+    width: 280px;
+    background: #16222aef;
+  }
 }

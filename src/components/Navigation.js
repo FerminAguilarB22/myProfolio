@@ -59,7 +59,7 @@ const Navigation = () => {
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3 ">
               <ul className="navLinksCanvas">
-              <Nav.Link href="#" className="linksCanvas">
+              <Nav.Link href="#home" className="linksCanvas">
                 Home
               </Nav.Link>
               <Nav.Link href="#about" className="linksCanvas">
@@ -68,10 +68,10 @@ const Navigation = () => {
               <Nav.Link href="#skills" className="linksCanvas">
                  Skills
               </Nav.Link>
-              <Nav.Link href="#" className="linksCanvas">
+              <Nav.Link href="#work" className="linksCanvas">
                  Work
               </Nav.Link>
-              <Nav.Link  href="#" className="linksCanvas">
+              <Nav.Link  href="#contact" className="linksCanvas">
                Contact
               </Nav.Link>
             </ul>
