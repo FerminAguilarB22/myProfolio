@@ -1,0 +1,85 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: 'Roboto';
+}
+
+.content-box{
+    background: linear-gradient(90deg, #16222a 0%, #3a6073 100%);
+    padding: 50px 90px;
+}
+
+.content-box .titleSkills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-box .titleSkills h2{
+    display: inline-block;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    text-transform: uppercase;
+    font-weight:600 ;
+}
+.content-box .titleSkills h6{
+    color: rgb(184, 184, 184);
+    margin: 6px 0px;
+}
+.skillBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 700px;
+}
+
+.skills .frontEnd{
+    width: 100%;
+    margin: 60px 0px;
+}
+.textBox {
+    margin-bottom: 50px;
+    color: #fff;
+    max-width: 700px;
+}
+.textBox h4{
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 20px;  
+}
+.textBox p {
+    font-size: 1.1em;
+}
+
+.skills .frontEnd .item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 15px 0px;
+    padding: 8px 0px;
+}
+.skills .frontEnd .item > span{
+    color: lightsteelblue;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+@media screen and (max-width:760px) {
+    .skills{
+        min-width: 500px;
+    }
+}
+@media screen and (max-width:510px) {
+    .skills{
+        min-width: 300px;
+    }
+}

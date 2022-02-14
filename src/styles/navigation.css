@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #16222ab6;
+}
+
+.nav .navBrand {
+  margin-top: 15px;
+  cursor: pointer;
+  color: #fff;
+  margin-left: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.nav .navLinks {
+  margin-left: auto;
+  margin-top: 16px;
+  display: flex;
+  height: auto;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .navLinks .links {
+  padding: 32.5px 35px;
+}
+.nav .navLinks .links ::after,
+.navLinksCanvas .linksCanvas::after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  height: 4px;
+  width: 100%;
+  opacity: 0;
+  transition: 0.7s;
+}
+
+.nav .navLinks .links :hover:after,
+.nav .navLinks .links .active:after,
+.navLinksCanvas .linksCanvas:hover {
+  opacity: 1;
+}
+
+.nav .navLinks .links a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-toggler {
+  filter: invert();
+}
+.navCanvas {
+  background: #16222a9b;
+}
+.offcanvas-header {
+  display: flex;
+  justify-content: flex-end;
+  height: 55px;
+}
+.btn-close {
+  filter: invert();
+}
+.offcanvas-body {
+  text-align: center;
+}
+.navLinksCanvas {
+  list-style: none;
+  text-align: center;
+}
+.navLinksCanvas .linksCanvas {
+  padding: 20px;
+}
+
+.nav-link{
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+@media screen and (max-width: 985px) {
+  .nav .navLinks {
+    display: none;
+  }
+}
