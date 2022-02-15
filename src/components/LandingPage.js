@@ -10,7 +10,7 @@ const LandingPage = () => {
       <article className="text">
         <h1>Hi, i'am fermin</h1>
         <h3>fullstack developer</h3>
-        <a href="">
+        <a href="#contact">
           <span>Contact me</span>
            <img src={Send}></img>
         </a>

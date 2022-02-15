@@ -39,7 +39,7 @@ const Work = () => {
     },
   ];
 
-  console.log(WorkArray);
+
 
   return (
     <section className="work" id="work">

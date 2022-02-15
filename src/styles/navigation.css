@@ -98,9 +98,9 @@
   font-weight: 600;
 }
 @media screen and (max-width: 985px) {
-  .nav .navLinks {
+  /* .nav .navLinks {
     display: none;
-  }
+  } */
   .navCanvas {
     width: 280px;
     background: #16222aef;
