@@ -110,7 +110,7 @@ const Contact = () => {
         </div>
         <div className="contactForm">
           <form onSubmit={handleEmail}>
-            <h2>Send Message</h2>
+            <h2>Let's work together</h2>
             <div className="inputBox">
               <input
                 type="text"
