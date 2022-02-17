@@ -7,13 +7,11 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "../styles/contact.css";
 import Swal from "sweetalert2";
 
-
 const Contact = () => {
   init("user_Y8n6ZNvbd70tCPorAXpJO");
   const [user_name, setUser_name] = useState("");
   const [destinatario, setDestinatario] = useState("");
   const [consulta, setConsulta] = useState("");
- 
 
   const validarEmail = (email) => {
     let expReg =
@@ -60,20 +58,19 @@ const Contact = () => {
       );
       e.target.reset();
       Swal.fire({
-        position: 'center',
-        icon: 'success',
-        title: 'Your message was successfully sent',
+        position: "center",
+        icon: "success",
+        title: "Your message was successfully sent",
         showConfirmButton: false,
-        timer: 1500
-      })
-    }else{
+        timer: 1500,
+      });
+    } else {
       Swal.fire({
-        icon: 'error',
-        title: 'Oops...',
-        text: 'Make sure you fill in all the fields correctly',
-      })
+        icon: "error",
+        title: "Oops...",
+        text: "Make sure you fill in all the fields correctly",
+      });
     }
-
   };
 
   return (
@@ -81,9 +78,8 @@ const Contact = () => {
       <div className="content">
         <h2>Contact me</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto,
-          saepe assumenda cumque totam dolores debitis aliquid tempore ad esse
-          ut, placeat facere obcaecati facilis veniam?
+          If you are interested in working with me or just have any questions,
+          feel free to contact me.
         </p>
       </div>
       <div className="container">

@@ -11,18 +11,17 @@ const Skills = () => {
       <div className="skillBox">
         <article className="skills">
           <div className="frontEnd">
-      <div className="textBox">
-        <h4>Lorem ipsum dolor sit.</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed
-          voluptas, impedit, ipsa fugiat perferendis, ducimus iste quia
-          doloribus dignissimos blanditiis dolores magnam ratione officia
-          corrupti incidunt vitae debitis natus veritatis. Modi fuga eveniet
-          optio consectetur quia hic assumenda asperiores delectus magni
-          deserunt officia, totam fugit laborum, nisi fugiat consequatur, ut
-          obcaecati sunt minus cum similique? Repellat officia
-        </p>
-      </div>
+            <div className="textBox">
+              {/* <h4>Lorem ipsum dolor sit.</h4> */}
+              <p>
+                With respect to group work, I master methodologies such as
+                Scrum, I was Scrum master in some projects I worked on. <br />
+                For
+                programming I use Visual Studio Code, I know how to use
+                libraries like Bootstrap5 as well as frameworks like React.js
+                and node.js.
+              </p>
+            </div>
             <section>
               <div className="item">
                 <span>85%</span>

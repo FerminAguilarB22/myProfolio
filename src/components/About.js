@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/about.css";
 import Yo from '../assets/me.jpg'
-import CV from '../assets/cv.jpg'
+import CV from '../assets/cv.png'
 const About = () => {
   return (
     <section className="about" id="about">
@@ -13,12 +13,7 @@ const About = () => {
         <div>
         <h3>Hi, i'am fermin</h3>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
-          deleniti dignissimos, porro quo excepturi, animi perferendis numquam
-          illum debitis accusantium rerum? Esse delectus architecto minima velit
-          vero magnam, recusandae optio iusto quisquam aperiam quae eligendi
-          molestias labore. 
-          incidunt
+        I am a junior web developer, I have great leadership, problem solving and teamwork skills. I am creative, proactive and interested in continuous improvement. I studied programming at RollingCode school.
         </p>
         <a href={CV} download={'Fermin Aguilar CV'} title='Fermin Aguilar CV'>Download CV</a>
         </div>

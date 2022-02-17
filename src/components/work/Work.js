@@ -37,14 +37,6 @@ const Work = () => {
       img: Colors,
     },
     {
-      name: "Magic Numbers",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi cum doloribus ducimus aliquid ipsa velit assumenda distinctio totam omnis.",
-      demoLink: "https://magicnumbers.netlify.app",
-      gitHubLink: "https://github.com/FerminAguilarB22/numerosMagicos",
-      img: Magic,
-    },
-    {
       name: "Cocu Bakery",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi cum doloribus ducimus aliquid ipsa velit assumenda distinctio totam omnis.",
