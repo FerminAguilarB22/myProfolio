@@ -8,14 +8,13 @@ import Colors from "../../assets/colors.svg";
 import Magic from "../../assets/magic.svg";
 import Panaderia from "../../assets/panaderia.svg";
 import Simpson from "../../assets/simpsons.svg";
-import Task from "../../assets/tasks.svg";
-import Travel from "../../assets/travel.svg";
+import Cafe from "../../assets/cafe.svg";
+import News from "../../assets/news.svg";
 const Work = () => {
   const WorkArray = [
     {
       name: "Veterinary Shifts",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi cum doloribus ducimus aliquid ipsa velit assumenda distinctio totam omnis.",
+      description: "Make a veterinary appointment from home",
       demoLink: "https://consulta-vet.netlify.app",
       gitHubLink: "https://github.com/FerminAguilarB22/ConsultorioVeterinaria",
       img: Vet,
@@ -23,7 +22,7 @@ const Work = () => {
     {
       name: "RollingBank",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi cum doloribus ducimus aliquid ipsa velit assumenda distinctio totam omnis.",
+        "Web made in RollingCode, aims to show the user the services provided by the bank.",
       demoLink: "https://rollingbank.netlify.app",
       gitHubLink: "https://github.com/FerminAguilarB22/ConsultorioVeterinaria",
       img: Bank,
@@ -31,7 +30,7 @@ const Work = () => {
     {
       name: "Colors Selector",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi cum doloribus ducimus aliquid ipsa velit assumenda distinctio totam omnis.",
+        "Want to choose colors for your next project?Enter the color name or its hexadecimal code and save it here.",
       demoLink: "https://cardscolores.netlify.app",
       gitHubLink: "https://github.com/FerminAguilarB22/cardsColores",
       img: Colors,
@@ -39,7 +38,7 @@ const Work = () => {
     {
       name: "Cocu Bakery",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi cum doloribus ducimus aliquid ipsa velit assumenda distinctio totam omnis.",
+        "Project done during the RollingCode course, CSS and HTML practices.",
       demoLink: "https://panaderiadecocu.netlify.app",
       gitHubLink: "https://github.com/FerminAguilarB22/Panaderia-cocu",
       img: Panaderia,
@@ -47,10 +46,26 @@ const Work = () => {
     {
       name: "Simpson Quotes",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi cum doloribus ducimus aliquid ipsa velit assumenda distinctio totam omnis.",
+        "If you are a Simpsons fan you have to enter here, click on the button and see which quote you got.",
       demoLink: "https://simpsonquotes.netlify.app",
       gitHubLink: "https://github.com/FerminAguilarB22/frasesSimpson",
       img: Simpson,
+    },
+    {
+      name: "CRUD Café",
+      description:
+        "C.R.U.D. made with React, as its letters indicate, you can create, read, update and delete products. It has its own database.",
+      demoLink: "https://crudcafe.netlify.app",
+      gitHubLink: "https://github.com/FerminAguilarB22/CrudCafe",
+      img: Cafe,
+    },
+    {
+      name: "RollingNews",
+      description:
+        "Final group project of the RollingCode course. It's a web newscast where different tools are enabled depending on the user's permissions. It has its own database.",
+      demoLink: "https://rollingnews17.netlify.app/",
+      gitHubLink: "https://github.com/Charlycarral/rollingNews",
+      img: News,
     },
   ];
 

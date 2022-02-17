@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/about.css";
 import Yo from '../assets/me.jpg'
-import CV from '../assets/cv.png'
+import CV from '../assets/cv.pdf'
 const About = () => {
   return (
     <section className="about" id="about">
