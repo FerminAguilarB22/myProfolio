@@ -6,6 +6,9 @@ font-family: 'Roboto';
 
 .content-box{
     background: linear-gradient(90deg, #16222a 0%, #3a6073 100%);
+    
+}
+.containerText{
     padding: 50px 90px;
 }
 
@@ -38,10 +41,6 @@ font-family: 'Roboto';
     min-width: 700px;
 }
 
-.skills .frontEnd{
-    width: 100%;
-    margin: 60px 0px;
-}
 .textBox {
     margin-bottom: 50px;
     color: #fff;
@@ -56,30 +55,35 @@ font-family: 'Roboto';
     font-size: 1.1em;
 }
 
-.skills .frontEnd .item {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    text-transform: uppercase;
+.habilities{
     width: 100%;
-    margin: 15px 0px;
-    padding: 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
-.skills .frontEnd .item > span{
-    color: lightsteelblue;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+
+.habilities .item{
+    width: 150px;
+    margin: 20px 50px 60px;
 }
 
 @media screen and (max-width:760px) {
     .skills{
         min-width: 500px;
     }
+    .habilities .item{
+        width: 150px;
+        margin: 20px
+    }
 }
 @media screen and (max-width:510px) {
     .skills{
         min-width: 300px;
+    }
+    .habilities .item{
+        width: 130px;
     }
 }

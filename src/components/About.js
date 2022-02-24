@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/about.css";
 import Yo from '../assets/me.jpg'
+import YoSm from '../assets/fotoCarnet1.jpeg'
 import CV from '../assets/cv.pdf'
 const About = () => {
   return (
@@ -9,7 +10,8 @@ const About = () => {
         <h2 className="title">About</h2>
       </div>
       <article className="contentBox">
-        <img src={Yo} alt=""  />
+        <img src={Yo} alt=""  className="display-md"/>
+        <img src={YoSm} alt=""  className="display-sm"/>
         <div>
         <h3>Hi, i'am fermin</h3>
         <p>

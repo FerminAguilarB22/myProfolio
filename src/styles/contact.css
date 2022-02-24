@@ -3,13 +3,12 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Robot", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .contact {
   position: relative;
-  min-height: 100vh;
-  padding: 50px 100px;
+  padding: 40px 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,18 +60,19 @@
   border-radius: 50%;
   font-size: 22px;
 }
-.container .contactInfo .box .text {
+.container .contactInfo .box .contact-text {
 
-  display: flex;
+  margin-top: 0px;
   margin-left: 20px;
   font-size: 16px;
   color: #fff;
-  flex-direction: column;
   font-weight: 300;
 }
-.container .contactInfo .box .text h3 {
+.container .contactInfo .box .contact-text h3 {
   font-weight: 500;
   color: #fff;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .contactForm {
@@ -130,6 +130,17 @@
   color: #fff;
   border-radius: 5px;
   
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  margin:0px;
+  color: #fff;
+  font-size: 0.75em;
+  font-family:'Roboto';
+  background: linear-gradient(90deg, #16222a 0%, #3a6073 100%);
 }
 
 @media (max-width: 991px) {

@@ -74,13 +74,18 @@ const Work = () => {
       <div className="title-box">
         <h2 className="title">My work</h2>
       </div>
-      <Carousel className="carousel">
+      {/* <Carousel className="carousel">
         {WorkArray.map((work, index) => (
           <Carousel.Item key={index} className="item">
             <WorkCards work={work}></WorkCards>
           </Carousel.Item>
         ))}
-      </Carousel>
+      </Carousel> */}
+      <section className="cards-container">
+        {WorkArray.map((work, index) => (
+          <WorkCards work={work} key={index} className="item"></WorkCards>
+        ))}
+      </section>
     </section>
   );
 };

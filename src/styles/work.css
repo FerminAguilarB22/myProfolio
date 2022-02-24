@@ -6,33 +6,14 @@
   background: #fff;
 }
 
-.carousel {
-  padding: 90px;
-  width: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .title-box{
   margin-top: 45px;
 }
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  filter: invert();
-  width: 30px;
-}
-.carousel-indicators [data-bs-target] {
-  background-color: black;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-}
 .card {
-  /* margin: 0px 15px; */
+  margin: 30px 15px;
   border: none;
   background: linear-gradient(90deg, #16222a 0%, #3a6073 100%);
-  width: 100%;
-  min-height: 450px;
+  width: 340px;
   padding: 20px 5px ;
   border-radius: 25px;
 }
@@ -103,28 +84,20 @@ border-radius: 6px;
     font-size: 1.1em;
 }
 
-@media screen and (max-width: 610px) {
-  .carousel {
-    padding: 55px;
-    width: 450px;
-  }
-  .cardImg {
-    max-width: 100px;
-  }
+.cards-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+
 }
+
 @media screen and (max-width: 500px) {
-  .carousel {
-    margin: 5px;
-    width: 358px;
-  }
   .card {
     min-height: 330px;
-
+    margin: 10px;
   }
   .cardImg {
     max-width: 100px;
-  }
-  .cardDescription{
-      display: none;
   }
 }

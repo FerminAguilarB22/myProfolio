@@ -74,6 +74,7 @@ const Contact = () => {
   };
 
   return (
+    <>
     <section className="contact" id="contact">
       <div className="content">
         <h2>Contact me</h2>
@@ -84,12 +85,11 @@ const Contact = () => {
       </div>
       <div className="container">
         <div className="contactInfo">
-          <div className="box"></div>
           <div className="box">
             <div className="icon">
               <FontAwesomeIcon icon={faPhoneAlt} />
             </div>
-            <div className="text">
+            <div className="contact-text">
               <h3>Phone</h3>
               <p>+54 3815852925</p>
             </div>
@@ -98,7 +98,7 @@ const Contact = () => {
             <div className="icon">
               <FontAwesomeIcon icon={faEnvelope} />
             </div>
-            <div className="text">
+            <div className="contact-text">
               <h3>Email</h3>
               <p>ferminab99@gmail.com</p>
             </div>
@@ -139,6 +139,8 @@ const Contact = () => {
         </div>
       </div>
     </section>
+    <p className="footer">&copy; Fermin Aguilar. All Rights Reserved.</p>
+    </>
   );
 };
 

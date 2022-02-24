@@ -5,31 +5,11 @@ import { Navbar, Container, Nav, Offcanvas, NavLink } from "react-bootstrap";
 const Navigation = () => {
   return (
     <>
-      {/* <nav className="nav">
-      <h3 className="navBrand">Fermin</h3>
-      <ul className="navLinks">
-        <li className="links">
-          <a href="#" className="active">Home</a>
-        </li>
-        <li className="links">
-          <a href="#about">About</a>
-        </li>
-        <li className="links">
-          <a href="#skills">Skills</a>
-        </li>
-        <li className="links">
-          <a href="#">Work</a>
-        </li>
-        <li className="links">
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-    </nav> */}
       <Navbar expand="lg" className="nav">
         <Container fluid>
           <h3 className="navBrand">Fermin</h3>
           <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
+          <Navbar.Collapse id="navbarScroll" className="display-nav">
             <ul className="navLinks">
               <li className="links">
                 <a href="#home">Home</a>
